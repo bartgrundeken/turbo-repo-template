@@ -11,7 +11,7 @@
     "lint": "biome lint --write",
     "test": "turbo test"
   },
-  "keywords": ["biome", "monorepo", "turborepo"],
+  "keywords": ["biome", "monorepo", "turborepo", "typescript"],
   "author": "Bart Grundeken",
   "license": "MIT",
   "devDependencies": {
