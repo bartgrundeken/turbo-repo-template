@@ -22,6 +22,6 @@ There are two subfolders for code:
 
 Code style is determined by [Biome](https://biomejs.dev/). There are three code style commands included:
 
-- `check`: lints, formats, and fixes imports.
+- `check`: lints, formats, and fixes imports. This is run on committing the code.
 - `format`: formats the code
 - `lint`: lints code
