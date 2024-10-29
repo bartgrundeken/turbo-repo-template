@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling.",
   "scripts": {
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "dev": "turbo dev",
     "check": "biome check --write",
     "format": "biome format --write",
-    "lint": "biome lint --write"
+    "lint": "biome lint --write",
+    "test": "turbo test"
   },
   "keywords": ["biome", "monorepo", "turborepo"],
   "author": "Bart Grundeken",
