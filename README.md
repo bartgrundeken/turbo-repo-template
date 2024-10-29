@@ -18,3 +18,10 @@ There are two subfolders for code:
 - `apps` which contains all the apps.
 - `packages` which contains all shared code and configuration.
 
+## Code Style
+
+Code style is determined by [Biome](https://biomejs.dev/). There are three code style commands included:
+
+- `check`: lints, formats, and fixes imports.
+- `format`: formats the code
+- `lint`: lints code
