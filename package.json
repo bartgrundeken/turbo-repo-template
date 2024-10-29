@@ -1,0 +1,13 @@
+{
+    "name": "@bartgrundeken/turbo-repo-template",
+    "version": "0.1.0",
+    "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling.",
+    "main": "index.js",
+    "scripts": {},
+    "keywords": [
+        "monorepo",
+        "turborepo"
+    ],
+    "author": "Bart Grundeken",
+    "license": "MIT"
+}
