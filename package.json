@@ -1,15 +1,17 @@
 {
   "name": "@bartgrundeken/turbo-repo-template",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling.",
   "scripts": {
     "build": "turbo build",
-    "check-types": "turbo check-types",
-    "dev": "turbo dev",
     "check": "biome check --write",
+    "dev": "turbo dev",
+    "e2e": "turbo e2e",
     "format": "biome format --write",
     "lint": "biome lint --write",
-    "test": "turbo test"
+    "test": "turbo test",
+    "test:watch": "turbo test:watch",
+    "typecheck": "turbo typecheck"
   },
   "keywords": ["biome", "monorepo", "turborepo", "typescript"],
   "author": "Bart Grundeken",
