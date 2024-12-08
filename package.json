@@ -1,6 +1,6 @@
 {
   "name": "@bartgrundeken/turbo-repo-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling.",
   "scripts": {
     "build": "turbo build",
@@ -29,5 +29,6 @@
   },
   "engines": {
     "node": ">=20.x.x"
-  }
+  },
+  "packageManager": "pnpm@8.12.1"
 }
