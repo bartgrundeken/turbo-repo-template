@@ -22,6 +22,28 @@ There are two subfolders for code:
 
 Code style is determined by [Biome](https://biomejs.dev/). There are three code style commands included:
 
-- `check`: lints, formats, and fixes imports. This is run on committing the code.
+- `check`: lints, formats, and fixes imports. Automatically run on commit.
 - `format`: formats the code
 - `lint`: lints code
+
+## Testing
+
+The following testing tools are included in dev dependencies:
+
+- [Cypress](https://www.cypress.io/) for E2E testing.
+- [Vitest](https://vitest.dev/) for unit testing.
+
+## Building
+
+For building and bundling, the following tools are included:
+
+- [TSup](https://github.com/egoist/tsup) for building and bundling Typescript libraries.
+- [Typescript](https://www.typescriptlang.org/) main development language.
+- [Vite](https://vite.dev/) for building web applications.
+
+## Miscellaneous
+
+The following are additional support tools:
+
+- [Dotenv](https://www.dotenv.org/) for managing environment variables. Includes dotenv-vault for storing environment variables securely only.
+- [TSX](https://tsx.is/) for executing Typescript script files.
