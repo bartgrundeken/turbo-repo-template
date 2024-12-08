@@ -1,6 +1,6 @@
 # Turbo Repo Template
 
-A default template for a monorepo. 
+A default template for a monorepo using [pnpm](https://pnpm.io/) and [Turborepo](https://turbo.build/repo/docs). 
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ To get started install [Node version 20+](https://nodejs.org/en/download/package
 
 ## Dependency Management
 
-We use [pnpm](https://pnpm.io/), for [reasons mentioned here](https://pnpm.io/pnpm-vs-npm). Install all dependencies by running `pnpm i` in the root. 
+We use pnpm, for [reasons mentioned here](https://pnpm.io/pnpm-vs-npm). Install all dependencies by running `pnpm i` in the root. 
 
 ## Project Structure
 

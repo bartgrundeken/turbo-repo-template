@@ -1,6 +1,6 @@
 {
   "name": "@bartgrundeken/turbo-repo-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling.",
   "scripts": {
     "build": "turbo build",
